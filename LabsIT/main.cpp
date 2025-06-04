@@ -37,7 +37,9 @@ int main() {
 	cout << "Имя: "; cin >> user.name;
 	cout << "Возраст: "; cin >> user.age;
 	cout << "Рост: "; cin >> user.height;
-	cout << "Вес: "; cin >> user.weight; 
+
+	
+	//	cout << "Вес: "; cin >> user.; 
 	print(user);
 	
 	return 0;
