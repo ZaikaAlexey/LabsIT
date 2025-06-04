@@ -39,7 +39,7 @@ int main() {
 	cout << "Рост: "; cin >> user.height;
 
 	
-	//	cout << "Вес: "; cin >> user.; 
+	cout << "Вес: "; cin >> user.;        
 	print(user);
 	
 	return 0;
