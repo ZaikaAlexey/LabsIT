@@ -7,21 +7,22 @@
 
 using namespace std;
 
-class User
+class Human
 {
 public:
 	string name;
 	int age;
 	int height;
-
+	int weight;
 private:
 
 };
-void print(User text) {
+void print(Human text) {
 	cout << " \n ************************** \n";
 	cout << "Имя: " << text.name <<endl;
 	cout << "Возраст: " << text.age << "лет" << endl;
-	cout << "Рост:" << text.height << "см." << endl;
+	cout << "Рост: " << text.height << "см" << endl;
+	cout << "Вес: " << text.weight << "кг" << endl;
 };
 
 
@@ -31,11 +32,13 @@ int main() {
 	cout << "===============\n Привет ВГЛТУ! \n===============" << endl;
 	cout << " \nЗаполните поля:" << endl;
 	cout << "_________________________" << endl;
-	User student;
-	cout << "Имя: "; cin >> student.name; 
-	cout << "Возраст: "; cin >> student.age; 
-	cout << "Рост: "; cin >> student.height;
-	print(student);
+
+	Human user;
+	cout << "Имя: "; cin >> user.name;
+	cout << "Возраст: "; cin >> user.age;
+	cout << "Рост: "; cin >> user.height;
+	cout << "Вес: "; cin >> user.weight; 
+	print(user);
 	
 	return 0;
 }
